@@ -7,9 +7,9 @@ body {
 
 .container {
     width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1865px;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .header {
@@ -32,19 +32,53 @@ body {
 }
 
 .main {
-    background: url('cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zNl9waG90b19vZl9tYW55X3NvbGFyX2NlbGxfb25fdGhlX21lYWRvd19taW5pbV9hNjNiODU5Yy05YjdiLTQ3YjctOWJhMC1mYmRmMDNhZmY4NDhfMS5qcGc.webp') no-repeat center center/cover;
-    max-width: 1100px;
+    background: url('/images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zNl9waG90b19vZl9tYW55X3NvbGFyX2NlbGxfb25fdGhlX21lYWRvd19taW5pbV9hNjNiODU5Yy05YjdiLTQ3YjctOWJhMC1mYmRmMDNhZmY4NDhfMS5qcGc.webp') no-repeat center center/cover;
+    max-width: 1865px;
     display: flex;
     justify-content: space-evenly;
-    margin: 0 auto;
+    margin: 0 0;
+    height: 550px;
 }
 
 .main-con-text{
-    text-align: left; 
-    color: #fff;
+    color: rgb(59, 1, 1);
+    text-align: left;
     width: 40%;
 }
 
 .form {
-    text-align: right;
+    display: block;
+    text-align: center;
+    max-width: 250px;
+    background-color: green;
+    height: 320px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 21px;
+}
+
+.form h2, p {
+    color: white;
+    
+}
+
+.quote-form{
+    display: block;
+    max-width: 200px;
+}
+
+.form-group input, textarea{
+    width: 100%;
+    margin-top: 2px;
+}
+
+.btn{
+    justify-content: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;
+    font-weight: bold;
 }
