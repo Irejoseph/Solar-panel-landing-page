@@ -37,6 +37,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin: 0 0;
+    width: 100%;
     height: 550px;
 }
 
@@ -63,14 +64,20 @@ body {
     
 }
 
+.main-con-text p {
+   color: orangered; 
+}
+
 .quote-form{
     display: block;
-    max-width: 200px;
+    padding: 0 5%;
 }
 
 .form-group input, textarea{
+    box-sizing: border-box;
     width: 100%;
     margin-top: 2px;
+    font-family: inherit;
 }
 
 .btn{
@@ -81,4 +88,27 @@ body {
     height: 30px;
     border-radius: 7px;
     font-weight: bold;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
+
+.footer-point {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer-point h3 {
+    margin-bottom: 10px;
+}
+
+.footer-point p {
+    margin: 0;
 }
