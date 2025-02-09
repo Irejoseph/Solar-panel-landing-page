@@ -5,7 +5,7 @@ body {
     color: #333;
     opacity: 0;
     transform: translateY(80px);
-    animation: slideIn 2s backwards;
+    animation: slideIn 2s forwards;
 }
 
 @keyframes slideIn {
@@ -43,51 +43,65 @@ body {
 
 .main {
     background: url('/images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zNl9waG90b19vZl9tYW55X3NvbGFyX2NlbGxfb25fdGhlX21lYWRvd19taW5pbV9hNjNiODU5Yy05YjdiLTQ3YjctOWJhMC1mYmRmMDNhZmY4NDhfMS5qcGc.webp') no-repeat center center/cover;
-    max-width: 1865px;
     display: flex;
     justify-content: space-evenly;
     margin: 0 0;
-    width: 100%;
-    height: 550px;
+    width: inherit;
+    height: 989px;
 }
 
 .main-con-text{
-    color: rgb(59, 1, 1);
     text-align: left;
     width: 40%;
+    margin-top: 300px;
 }
+
+.main-con-text h1 {
+    color: rgb(59, 1, 1);
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.main-con-text p {
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
 
 .form {
     display: block;
     text-align: center;
-    max-width: 250px;
     background-color: green;
-    height: 320px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    width: 270px;
+    height: 390px;
+    margin-top: 280px;
     padding-right: 30px;
-    padding-left: 21px;
+    padding-left: 30px;
+}
+
+.form-container {
+    height: 290px;
+    display: block;
 }
 
 .form h2, p {
     color: white;
-    
 }
 
-.main-con-text p {
-   color: orangered; 
-}
-
-.quote-form{
-    display: block;
-    padding: 0 5%;
-}
-
-.form-group input, textarea{
+.form-group textarea, input{
+    font-size: 17px;
     box-sizing: border-box;
     width: 100%;
-    margin-top: 2px;
+    border-radius: 4px;
     font-family: inherit;
+}
+
+.form-group input {
+    height: 30px;
+}
+
+.form-group textarea {
+    height: 90px;
 }
 
 .btn{
@@ -96,6 +110,7 @@ body {
     background-color: black;
     width: 100%;
     height: 30px;
+    margin-bottom: 5px;
     border-radius: 7px;
     font-weight: bold;
     transition: background-color 0.3s, transform 0.3s;
@@ -106,6 +121,7 @@ body {
     transform: scale(1.05); 
 }
 
+
 .footer-container {
     display: flex;
     justify-content: space-around;
@@ -114,8 +130,6 @@ body {
     color: white;
     width: 100%;   
 }
-
-
 
 .footer-point {
     flex: 1;
