@@ -16,10 +16,16 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 1865px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1990px;
     display: flex;
     justify-content: space-evenly;
+    
+}
+
+.container p {
+    
+
 }
 
 .header {
@@ -33,12 +39,9 @@ body {
     font-weight: bold;
 }
 
-.nav p {
-    font-size: 15px;
+.head-call {
+    font-size: 16px;
     padding: 0;
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 490px;
 }
 
 .main {
